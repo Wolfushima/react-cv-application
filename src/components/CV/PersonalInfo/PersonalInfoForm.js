@@ -5,7 +5,7 @@ import TextArea from '../../Utils/TextArea';
 const PersonalInfoForm = ({
   firstName, lastName, currentPosition, email, phoneNumber, professionalSummary, onChange, onSubmit,
 }) => (
-  <form className="personal-info" onSubmit={onSubmit}>
+  <form className="personal-info-form" onSubmit={onSubmit}>
     <Input labelP="First Name" name="firstName" type="text" value={firstName} onChange={onChange} />
 
     <Input labelP="Last Name" name="lastName" type="text" value={lastName} onChange={onChange} />
@@ -20,7 +20,7 @@ const PersonalInfoForm = ({
 
     <br />
 
-    <input type="submit" value="Submit" />
+    <input type="submit" value="Save" />
   </form>
 );
 
