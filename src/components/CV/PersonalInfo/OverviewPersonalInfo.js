@@ -3,7 +3,7 @@ import React from 'react';
 const OverviewPersonalInfo = ({
   firstName, lastName, currentPosition, email, phoneNumber, professionalSummary, handleEdit,
 }) => (
-  <ul className="professionalsummary-overview">
+  <ul className="personal-info-overview">
     <p className="first-name">
       <span>
         First Name:
