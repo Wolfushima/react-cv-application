@@ -3,7 +3,7 @@ import React from 'react';
 const OverviewEducationInfo = ({
   schoolName, titleOfStudy, fromDate, toDate, handleEdit,
 }) => (
-  <ul>
+  <ul className="education-info-overview cv-overview">
     <p className="school-name">
       <span>
         School Name:

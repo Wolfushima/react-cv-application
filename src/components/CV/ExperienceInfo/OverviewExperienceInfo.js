@@ -3,7 +3,7 @@ import React from 'react';
 const OverviewExperienceInfo = ({
   positionTitle, companyName, fromDate, toDate, experienceSummary, handleEdit,
 }) => (
-  <ul>
+  <ul className="experience-info-overview cv-overview">
     <p className="position-title">
       <span>
         Position Title:
