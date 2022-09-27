@@ -1,0 +1,63 @@
+.overview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+
+    .cv-overview {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 320px;
+        min-width: 320px;
+        border: solid 1px hsla(260, 1%, 43%, 0.1);
+        border-radius: 3px;
+        padding: 10px;
+    
+        p {
+            color: #5f6b7a;
+            letter-spacing: 1px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            text-align: justify;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            word-break: break-word;
+
+        }
+
+        span {
+            color: #6e6d70;
+            font-weight: bold;
+        }
+    
+        .edit-btn {
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 6px 14px;
+            border-radius: 6px;
+            border: hsla(260, 1%, 43%, 0.25) solid 1px;
+            margin-top: 10px;
+            min-width: 100%;
+          
+            background: none;
+            color: hsla(260, 1%, 43%, 0.5);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+    
+            &:hover {
+              box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+              outline: 0;
+              cursor: pointer;
+            }
+      }
+    }
+}
+
