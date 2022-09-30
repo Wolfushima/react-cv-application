@@ -81,6 +81,59 @@
                 cursor: pointer;
               }
         }
+    }
 
+    .experience-info-form {
+        margin-bottom: 0;
+    }
+}
+
+.experience-list-container {
+    display: flex;
+    flex-direction: column;
+
+    .experience {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .add-btn,
+    .remove-btn {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6px 14px;
+        border-radius: 6px;
+        border: none;
+        // margin-top: 10px;
+        min-width: 320px;
+        max-width: 320px;
+    
+        background: hsl(260, 1%, 38%);
+        box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+        color: #DFDEDF;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+
+        &:hover {
+        box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+        outline: 0;
+        cursor: pointer;
+        }
+    }
+
+    .add-btn {
+        margin-top: 10px;
+        background: none;
+        color: #4e4e4e;
+    }
+
+    .remove-btn {
+        background: hsl(242deg 29% 48%);
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OverviewExperienceInfoList = ({ experienceList, handleRemove }) => (
+const OverviewExperienceInfoList = ({ experienceList, handleRemove, handleAdd }) => (
   <ul className="experience-list-container">
     {
         experienceList.map((experience) => (
@@ -16,6 +16,7 @@ const OverviewExperienceInfoList = ({ experienceList, handleRemove }) => (
           </li>
         ))
     }
+    <button className="add-btn" type="button" onClick={handleAdd}>Add Experience</button>
   </ul>
 );
 

@@ -44,8 +44,8 @@ export default class ExperienceInfoList extends Component {
         <OverviewExperienceInfoList
           experienceList={experienceList}
           handleRemove={handleRemove}
+          handleAdd={handleAdd}
         />
-        <button className="add-btn" type="button" onClick={handleAdd}>Add Experience</button>
       </>
     );
   }
