@@ -33,7 +33,9 @@ export default class ExperienceInfo extends Component {
     });
   }
 
-  handleEdit() {
+  handleEdit(event) {
+    const experienceNode = event.target.parentNode.parentNode.parentNode;
+    experienceNode.querySelector('.remove-btn').classList.remove('hide');
     this.setState({
       edit: true,
     });

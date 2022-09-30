@@ -17,7 +17,17 @@ const ExperienceInfoForm = ({
 
       <TextArea labelP="Experience Summary" name="experienceSummary" value={experienceSummary} onChange={onChange} />
 
-      <input type="submit" value="Save" className="save-btn" />
+      <input
+        type="submit"
+        value="Save"
+        className="save-btn"
+        onClick={
+            (event) => {
+              const experienceNode = event.target.parentNode.parentNode.parentNode;
+              experienceNode.querySelector('.remove-btn').classList.add('hide');
+            }
+        }
+      />
     </form>
   </div>
 );
