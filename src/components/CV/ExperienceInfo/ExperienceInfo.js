@@ -40,7 +40,9 @@ export default class ExperienceInfo extends Component {
   }
 
   render() {
-    const { handleChange, handleSubmit, handleEdit } = this;
+    const {
+      handleChange, handleSubmit, handleEdit,
+    } = this;
 
     const {
       positionTitle, companyName, fromDate, toDate, experienceSummary, edit,

@@ -1,7 +1,7 @@
 import React from 'react';
 import PersonalInfo from './PersonalInfo/PersonalInfo';
 import EducationInfo from './EducationInfo/EducationInfo';
-import ExperienceInfo from './ExperienceInfo/ExperienceInfo';
+import ExperienceInfoList from './ExperienceInfo/ExperienceInfoList';
 
 const CV = () => (
   <>
@@ -10,7 +10,7 @@ const CV = () => (
     <h2>Education</h2>
     <EducationInfo />
     <h2>Experience</h2>
-    <ExperienceInfo />
+    <ExperienceInfoList />
   </>
 );
 
