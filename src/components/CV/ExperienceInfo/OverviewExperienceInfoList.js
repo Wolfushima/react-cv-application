@@ -1,7 +1,7 @@
 import React from 'react';
 
 const OverviewExperienceInfoList = ({ experienceList, handleRemove, handleAdd }) => (
-  <ul className="experience-list-container">
+  <div className="experience-list-container">
     {
         experienceList.map((experience) => (
           <li key={experience.key} className="experience">
@@ -17,7 +17,7 @@ const OverviewExperienceInfoList = ({ experienceList, handleRemove, handleAdd })
         ))
     }
     <button className="add-btn" type="button" onClick={handleAdd}>Add Experience</button>
-  </ul>
+  </div>
 );
 
 export default OverviewExperienceInfoList;
