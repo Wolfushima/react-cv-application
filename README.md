@@ -15,6 +15,10 @@ This is my CV application built to learn and understand the basics of React such
 - Rendering lists in React
 - How to handle input fields and `forms` in React
 
+## Live Demo
+
+https://wolfushima.github.io/react-cv-application/
+
 ## Built with
 
 - React
@@ -24,8 +28,14 @@ This is my CV application built to learn and understand the basics of React such
 - Sass
 - Uniqid
 
-![website screenshot](./readme-assets/website-screenshot-1.png 'Website Screenshot')
-![website screenshot](./readme-assets/website-screenshot-2.png 'Website Screenshot')
-![website screenshot](./readme-assets/website-screenshot-3.png 'Website Screenshot')
-![website screenshot](./readme-assets/website-screenshot-4.png 'Website Screenshot')
-![website screenshot](./readme-assets/website-screenshot-5.png 'Website Screenshot')
+## Screenshots
+
+## |![website screenshot](./readme-assets/website-screenshot-1.png 'Website Screenshot')|
+
+## |![website screenshot](./readme-assets/website-screenshot-2.png 'Website Screenshot')|
+
+## |![website screenshot](./readme-assets/website-screenshot-3.png 'Website Screenshot')|
+
+## |![website screenshot](./readme-assets/website-screenshot-4.png 'Website Screenshot')|
+
+## |![website screenshot](./readme-assets/website-screenshot-5.png 'Website Screenshot')|
