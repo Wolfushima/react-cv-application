@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Demo
+
+https://wolfushima.github.io/react-cv-application/
+
 ## Description
 
 This is my CV application built to learn and understand the basics of React such as:
@@ -15,10 +19,6 @@ This is my CV application built to learn and understand the basics of React such
 - Rendering lists in React
 - How to handle input fields and `forms` in React
 
-## Live Demo
-
-https://wolfushima.github.io/react-cv-application/
-
 ## Built with
 
 - React
@@ -30,12 +30,12 @@ https://wolfushima.github.io/react-cv-application/
 
 ## Screenshots
 
-## |![website screenshot](./readme-assets/website-screenshot-1.png 'Website Screenshot')|
+<kbd><img src="./readme-assets/website-screenshot-1.png"></kbd>
 
-## |![website screenshot](./readme-assets/website-screenshot-2.png 'Website Screenshot')|
+<kbd><img src="./readme-assets/website-screenshot-2.png"></kbd>
 
-## |![website screenshot](./readme-assets/website-screenshot-3.png 'Website Screenshot')|
+<kbd><img src="./readme-assets/website-screenshot-3.png"></kbd>
 
-## |![website screenshot](./readme-assets/website-screenshot-4.png 'Website Screenshot')|
+<kbd><img src="./readme-assets/website-screenshot-4.png"></kbd>
 
-## |![website screenshot](./readme-assets/website-screenshot-5.png 'Website Screenshot')|
+<kbd><img src="./readme-assets/website-screenshot-5.png"></kbd>
